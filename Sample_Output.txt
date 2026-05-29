@@ -1,0 +1,17 @@
+🔍 Scanning target: 192.168.1.0/24
+
+Host: 192.168.1.1 (router.local)
+State: up
+Protocol: tcp
+Port: 22   State: open   Service: ssh
+Port: 80   State: open   Service: http
+
+Host: 192.168.1.10 (workstation.local)
+State: up
+Protocol: tcp
+Port: 443  State: open   Service: https
+
+Host: 192.168.1.20 (printer.local)
+State: up
+Protocol: tcp
+Port: 9100 State: open   Service: jetdirect
